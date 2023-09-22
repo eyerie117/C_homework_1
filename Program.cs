@@ -4,17 +4,15 @@ a = 2 b = 10->max = 10
 a = -9 b = -3->max = -3
 */
 
-// Console.Clear();
+Console.Clear();
 
-// Console.Write("Введите первое число: ");
-// int a = Convert.ToInt32(Console.ReadLine());
-// Console.Write("Введите второе число: ");
-// int b = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите первое число: ");
+int a = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите второе число: ");
+int b = Convert.ToInt32(Console.ReadLine());
 
-// if (a > b)
-//     Console.WriteLine("Первое число больше, чем второе");
-// else
-//     Console.WriteLine("Первое число меньше, чем второе");
+if (a > b) Console.WriteLine("Первое число больше, чем второе");
+else Console.WriteLine("Первое число меньше, чем второе");
 
 /*Задача 4: Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
 2, 3, 7 -> 7
@@ -61,17 +59,17 @@ a = -9 b = -3->max = -3
 8 -> 2, 4, 6, 8
 */
 
-Console.Clear();
+// Console.Clear();
 
-Console.Write("Введите число: ");
-int N = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Введите число: ");
+// int N = Convert.ToInt32(Console.ReadLine());
 
-// Вариант 1.
+// // Вариант 1.
 
-for (int i = 0; i <= N; i++)
-{
-    if (i % 2 == 0) Console.Write(i + " ");
-}
+// for (int i = 0; i <= N; i++)
+// {
+//     if (i % 2 == 0) Console.Write(i + " ");
+// }
 
 // Вариант 2.
 
