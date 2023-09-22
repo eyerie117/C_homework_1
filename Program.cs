@@ -64,7 +64,7 @@ else Console.WriteLine("Первое число меньше, чем второ�
 // Console.Write("Введите число: ");
 // int N = Convert.ToInt32(Console.ReadLine());
 
-// // Вариант 1.
+// Вариант 1.
 
 // for (int i = 0; i <= N; i++)
 // {
